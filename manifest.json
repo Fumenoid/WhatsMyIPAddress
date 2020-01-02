@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "IsSmokeOut",
+  "version": "1.0.0",
+
+  "description": "A browser extension that displays your IP address, and your location based on your IP address, you can use it to check your vpn or proxy, with just a click, : D",
+
+  "browser_action": {
+    "default_title": "IsSmokeout",
+    "default_popup": "popup/Smokes.html",
+    "default_icon": {
+      "32": "icon/button/gSmoke1.png"
+    }
+  },
+
+  "permissions": [
+    "*://api.ipgeolocation.io/*", 
+    "webRequest"
+  ],
+
+  "icons":{
+    "48":"icon/sg1.png",
+    "96":"icon/sg2.png"
+  }
+
+}
