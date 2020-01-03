@@ -1,15 +1,15 @@
 {
   "manifest_version": 2,
-  "name": "IsSmokeOut",
+  "name": "What's My IP Address",
   "version": "1.0.0",
 
   "description": "A browser extension that displays your IP address, and your location based on your IP address, you can use it to check your vpn or proxy, with just a click, : D",
 
   "browser_action": {
-    "default_title": "IsSmokeout",
+    "default_title": "FetchmyIP",
     "default_popup": "popup/Smokes.html",
     "default_icon": {
-      "32": "icon/button/gSmoke1.png"
+      "32": "icon/button/30pxbicon.png"
     }
   },
 
@@ -19,8 +19,7 @@
   ],
 
   "icons":{
-    "48":"icon/sg1.png",
-    "96":"icon/sg2.png"
+    "48":"icon/micon.png"
   }
 
 }

@@ -1,6 +1,11 @@
 var arr
 var ar
 
+function exporttable() {
+  document.getElementById("t01").innerHTML= '<tr><th>Category</th><th>Info. Gathered</th></tr><tr><td>IP Address</td><td id="ipa"></td></tr><tr><td>Country</td><td id="Cun"></td></tr><tr><td>Region</td><td id="Reg"></td></tr><tr><td>City</td><td id="city"></td></tr><tr><td>Longitude</td><td id="LG"></td></tr><tr><td>Latitude</td><td id="LT"></td></tr>'
+  document.getElementById("yo").remove()
+}
+
 function getIp() {
   var req = new XMLHttpRequest();
   req.onreadystatechange = function() {
@@ -30,8 +35,9 @@ function getLocation() {
 }
 
 function boss() {
-getIp()
-getLocation()
+  exporttable()
+  getIp()
+  getLocation()
 }
 
 document.getElementById("event").addEventListener('click', boss)
