@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
   "name": "What's My IP Address",
-  "version": "1.0.0",
+  "version": "1.1.0",
 
-  "description": "A browser extension that displays your IP address, and your location based on your IP address, you can use it to check your vpn or proxy, with just a click, : D",
+  "description": "A browser extension that displays your IP address and your location based on your IP address, you can use it to check your vpn(proxy) or your public IP Address just just a click :D",
 
   "browser_action": {
     "default_title": "FetchmyIP",
@@ -21,5 +21,5 @@
   "icons":{
     "48":"icon/micon.png"
   }
-
+  
 }
