@@ -47,13 +47,3 @@ const boss = () => {
 }
 
 document.getElementById("event").addEventListener('click', boss)
-
-
-
-
-
-
-//Important - It won't give console logs and are only responsible to changes done to the html of browser extension
-//Important - Event handler handle the events ypu can't simply call functions as they are in different file.
-//Chillax :)
-//Remember it's not work they are projects for fun
