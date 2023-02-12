@@ -30,7 +30,7 @@ const getLocation = () => {
     document.getElementById("LT").textContent= ar.latitude;
   }
   };
-  req.open("GET","https://api.ipgeolocation.io/ipgeo?apiKey=8c657ed0207b4c358f1cf91f7b993d89&ip="+arr.ip+"&fields=geo", true);
+  req.open("GET","https://api.ipgeolocation.io/ipgeo?apiKey=<API KEY>&ip="+arr.ip+"&fields=geo", true);
   req.send();
 }
 
